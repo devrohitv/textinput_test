@@ -2,10 +2,6 @@ from kivy.app import App
 from kivy.uix.widget import Widget
 from kivy.uix.gridlayout import GridLayout
 from normal_input import NormalInput
-from text_input import MyTextInputfrom kivy.app import App
-from kivy.uix.widget import Widget
-from kivy.uix.gridlayout import GridLayout
-from normal_input import NormalInput
 from text_input_kuze import KuTextInput
 
 class Layout(GridLayout):
