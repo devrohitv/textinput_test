@@ -5,7 +5,7 @@ if platform == "android":
     from jnius import autoclass
 
 class KuTextInput(MyTextInput):
-    def __init__(**kwargs):
+    def __init__(self, **kwargs):
         super().__init__(**kwargs)
         self.font_size = "25sp"
         self.font_name = "Aparajita.ttf"
