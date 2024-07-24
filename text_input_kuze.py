@@ -5,6 +5,10 @@ if platform == "android":
     from jnius import autoclass
 
 class KuTextInput(MyTextInput):
+    def __init__(**kwargs):
+        super().__init__(**kwargs)
+        self.font_size = "25sp"
+        self.font_name = "Aparajita.ttf"
     # keyboard_suggestions's on_ doesn't work..
     __events__ = ('on_suggestions', )
 
