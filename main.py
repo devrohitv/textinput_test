@@ -9,7 +9,7 @@ class Layout(GridLayout):
         super().__init__(**kwargs)
         self.cols = 1
         self.add_widget(NormalInput())
-        self.add_widget(MyTextInput())
+        self.add_widget(KuTextInput())
         self.add_widget(Widget(size_hint=(1, .5)))
 
 class MainApp(App):
